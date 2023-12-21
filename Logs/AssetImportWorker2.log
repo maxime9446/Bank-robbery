@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/becke/Crochetage
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49200
+Successfully changed project path to: C:/Users/becke/Crochetage
+C:/Users/becke/Crochetage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12484] Host "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 2094114109 [EditorId] 2094114109 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H6I10TV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12484] Host "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 2094114109 [EditorId] 2094114109 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H6I10TV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/becke/Crochetage/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007356 seconds.
+- Loaded All Assemblies, in  0.311 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.218 seconds
+Domain Reload Profiling: 527ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 1089ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3577.
+Memory consumption went from 122.6 MB to 122.6 MB.
+Total: 5.777000 ms (FindLiveObjects: 0.543300 ms CreateObjectMapping: 0.170200 ms MarkObjects: 4.875900 ms  DeleteObjects: 0.185400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LHWeaponCamera.cs: d46a1e55e4ad0ff0ff6d13ce35fbd8d5 -> ef8cd7b7089e5d97f0cea69a32b29060
+  custom:scripting/monoscript/fileName/LPDoor.cs: 99907756f5f5488c6ad32ed38d492220 -> b41e703a7e9b96e47e2ef8e8b1b564c4
+  custom:scripting/monoscript/fileName/LHPlayer.cs: 128150586eeefe2e54bb8493b8e20960 -> 69b59d9e6d064b9ee56669c9dc9fa33c
+  custom:scripting/monoscript/fileName/LPDemoPlayer.cs: ed780cf248c5fbff09d8328c57c6a300 -> 0cf3c830f1d7da388548fc1ea65d7ba4
+  custom:scripting/monoscript/fileName/LPDialPad.cs: 2944cb540a7cfc966e49261c7ed5b68f -> e010c585e81ad57d4774e668abb09df7
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/LHInventory.cs: 6591cc6c3257e75dad98f666433350f5 -> 021566b5525eb8534768943281175a84
+  custom:scripting/monoscript/fileName/LHSplat.cs: a7e0a0224635c0df6df86c8a9bf906d8 -> 64ea54d5413cb71a91f71ebe3971a6ff
+  custom:scripting/monoscript/fileName/LHEffect.cs: b65ef3a986154dd93d1a05bba5db0b96 -> 380ea3941996a0762791c7e7f07151ff
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/LPSafe.cs: 70e477aea725f026a75e2edbe471fe42 -> 123e3226d61c5bd80c7e47cca4458a91
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LHContainer.cs: 7bcfd921a6ef1e5574fd02b72b843b25 -> d71c5cccfbe84d316af03bcb30559966
+  custom:scripting/monoscript/fileName/LHDestroyObject.cs: d044d874178f3ffab26f3eed23dd4be2 -> 28c5044fb07b788f5feee06239577046
+  custom:scripting/monoscript/fileName/LPMobileControls.cs: 69c32a2e27674fe8845a1c8a8c839c13 -> 928e6cf423a5f66b26d2b0f9e607e63e
+  custom:scripting/monoscript/fileName/LHCamera.cs: e5babae43d7d76871511f9fb71e01d79 -> d983ae8afdff39c8d5af479993c9687e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LPExplosive.cs: 66ebdaea87daee35dab65e8ea05bf344 -> d13a17ccac2801d8a1f71f2135cd5632
+  custom:scripting/monoscript/fileName/LHLookAt.cs: a7ddef2b3ed6a3ff9220f486fab5f0d9 -> 585f5c6d54874d5b71f4625686c57bc0
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LHBombLock.cs: ec5a70ff57581b0fc48e7babed5ead4d -> 5e7c1d2a0d6f96050583143523202ca8
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LHPanelLock.cs: 61e99568f02aeb858f5cc6ad06fea30f -> cdcba7039400ccf5570a22168f6b9771
+  custom:scripting/monoscript/fileName/LHPanelWire.cs: 7ce412853ea25682caedbca7fe7d7d07 -> 6a977c449e83c08870792f14af53549a
+  custom:scripting/monoscript/fileName/LHPickup.cs: 416832233aed6814dc06d025f51e6539 -> a702987423597203e48c38a5f50a2fd4
+  custom:scripting/monoscript/fileName/LHLock.cs: c640a7becbccf3944e36f64122047eb1 -> 6796e487b7a45feb5c59a57f956f9443
+  custom:scripting/monoscript/fileName/LHSafeLock.cs: 2dbd6ae4d44c43900a7fed0ed07f2558 -> 79c1b032783832adb0a544eb6a3d7b6b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LPPlaySound.cs: cfcd74da1f682b4587df65df10913909 -> d4be01df99dc6f42ae7f278ab12e8957
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPLockpicking.cs: 7ca9ba0ea3d1ff1ddd3ba66035da753f -> 1856f5de9918bdf9b5ac6980d520f0e3
+  custom:scripting/monoscript/fileName/LHEnlarge.cs: 39422cdbf9b10faf56d65d485ffe4fea -> 50c8c13381d46c0217e945789747190d
+  custom:scripting/monoscript/fileName/LPLockActivator.cs: fb4edc18f07cc5efac718d5b40186efc -> 36d7f4f0a1cff6125c0c126f4f3f8083
+  custom:scripting/monoscript/fileName/LHMessage.cs: a8960df0f7481a25c56aeb37c4c29ec7 -> 5c33d649c348b4e61377a02b9cc8cc3c
+  custom:scripting/monoscript/fileName/LPKingdomLock.cs: 3b401e92c9c20ff1ea5d32c688cb6023 -> 343ac4cd43e5abb9be6a190ff33d3abe
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPAtomicBomb.cs: c60b75201f48f947f1f5e156a16d81b1 -> 17070b94300d1d1e00d9ebba77135a0e
+========================================================================
+Received Import Request.
+  Time since last request: 589522.916288 seconds.
+  path: Assets/Locks/Lock/Fonts/BebasNeue.otf
+  artifactKey: Guid(77130037d2a59cc45bd7646ea75d81eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lock/Fonts/BebasNeue.otf using Guid(77130037d2a59cc45bd7646ea75d81eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960ef000331f0339c1c8dbabe46ba622') in 0.108827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.519620 seconds.
+  path: Assets/Locks/Lock/Materials/Blue.mat
+  artifactKey: Guid(c583c772982ffe04fb94f716cdb64357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lock/Materials/Blue.mat using Guid(c583c772982ffe04fb94f716cdb64357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ea0becdeef2b1ffa75da5174364ad9') in 0.050008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.812916 seconds.
+  path: Assets/Locks/Lock/Prefabs/Canvases/CanvasMobileControls.prefab
+  artifactKey: Guid(5492cf7c1cbe2864abe653e181c82012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lock/Prefabs/Canvases/CanvasMobileControls.prefab using Guid(5492cf7c1cbe2864abe653e181c82012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a6b337950aaea22dfa8548433705a') in 0.013585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.002 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 3625.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 3.835200 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.134600 ms MarkObjects: 3.284900 ms  DeleteObjects: 0.154000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LHWeaponCamera.cs: d46a1e55e4ad0ff0ff6d13ce35fbd8d5 -> ef8cd7b7089e5d97f0cea69a32b29060
+  custom:scripting/monoscript/fileName/LPDoor.cs: 99907756f5f5488c6ad32ed38d492220 -> b41e703a7e9b96e47e2ef8e8b1b564c4
+  custom:scripting/monoscript/fileName/LHPlayer.cs: 128150586eeefe2e54bb8493b8e20960 -> 69b59d9e6d064b9ee56669c9dc9fa33c
+  custom:scripting/monoscript/fileName/LPDemoPlayer.cs: ed780cf248c5fbff09d8328c57c6a300 -> 0cf3c830f1d7da388548fc1ea65d7ba4
+  custom:scripting/monoscript/fileName/LPDialPad.cs: 2944cb540a7cfc966e49261c7ed5b68f -> e010c585e81ad57d4774e668abb09df7
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/LHInventory.cs: 6591cc6c3257e75dad98f666433350f5 -> 021566b5525eb8534768943281175a84
+  custom:scripting/monoscript/fileName/LHSplat.cs: a7e0a0224635c0df6df86c8a9bf906d8 -> 64ea54d5413cb71a91f71ebe3971a6ff
+  custom:scripting/monoscript/fileName/LHEffect.cs: b65ef3a986154dd93d1a05bba5db0b96 -> 380ea3941996a0762791c7e7f07151ff
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/LPSafe.cs: 70e477aea725f026a75e2edbe471fe42 -> 123e3226d61c5bd80c7e47cca4458a91
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LHContainer.cs: 7bcfd921a6ef1e5574fd02b72b843b25 -> d71c5cccfbe84d316af03bcb30559966
+  custom:scripting/monoscript/fileName/LHDestroyObject.cs: d044d874178f3ffab26f3eed23dd4be2 -> 28c5044fb07b788f5feee06239577046
+  custom:scripting/monoscript/fileName/LPMobileControls.cs: 69c32a2e27674fe8845a1c8a8c839c13 -> 928e6cf423a5f66b26d2b0f9e607e63e
+  custom:scripting/monoscript/fileName/LHCamera.cs: e5babae43d7d76871511f9fb71e01d79 -> d983ae8afdff39c8d5af479993c9687e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LPExplosive.cs: 66ebdaea87daee35dab65e8ea05bf344 -> d13a17ccac2801d8a1f71f2135cd5632
+  custom:scripting/monoscript/fileName/LHLookAt.cs: a7ddef2b3ed6a3ff9220f486fab5f0d9 -> 585f5c6d54874d5b71f4625686c57bc0
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LHBombLock.cs: ec5a70ff57581b0fc48e7babed5ead4d -> 5e7c1d2a0d6f96050583143523202ca8
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LHPanelLock.cs: 61e99568f02aeb858f5cc6ad06fea30f -> cdcba7039400ccf5570a22168f6b9771
+  custom:scripting/monoscript/fileName/LHPanelWire.cs: 7ce412853ea25682caedbca7fe7d7d07 -> 6a977c449e83c08870792f14af53549a
+  custom:scripting/monoscript/fileName/LHPickup.cs: 416832233aed6814dc06d025f51e6539 -> a702987423597203e48c38a5f50a2fd4
+  custom:scripting/monoscript/fileName/LHLock.cs: c640a7becbccf3944e36f64122047eb1 -> 6796e487b7a45feb5c59a57f956f9443
+  custom:scripting/monoscript/fileName/LHSafeLock.cs: 2dbd6ae4d44c43900a7fed0ed07f2558 -> 79c1b032783832adb0a544eb6a3d7b6b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LPPlaySound.cs: cfcd74da1f682b4587df65df10913909 -> d4be01df99dc6f42ae7f278ab12e8957
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPLockpicking.cs: 7ca9ba0ea3d1ff1ddd3ba66035da753f -> 1856f5de9918bdf9b5ac6980d520f0e3
+  custom:scripting/monoscript/fileName/LHEnlarge.cs: 39422cdbf9b10faf56d65d485ffe4fea -> 50c8c13381d46c0217e945789747190d
+  custom:scripting/monoscript/fileName/LPLockActivator.cs: fb4edc18f07cc5efac718d5b40186efc -> 36d7f4f0a1cff6125c0c126f4f3f8083
+  custom:scripting/monoscript/fileName/LHMessage.cs: a8960df0f7481a25c56aeb37c4c29ec7 -> 5c33d649c348b4e61377a02b9cc8cc3c
+  custom:scripting/monoscript/fileName/LPKingdomLock.cs: 3b401e92c9c20ff1ea5d32c688cb6023 -> 343ac4cd43e5abb9be6a190ff33d3abe
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPAtomicBomb.cs: c60b75201f48f947f1f5e156a16d81b1 -> 17070b94300d1d1e00d9ebba77135a0e
+========================================================================
+Received Import Request.
+  Time since last request: 484.662877 seconds.
+  path: Assets/Locks/Lockpicking/Models/Materials/Material #4.mat
+  artifactKey: Guid(a6d87de1afafe5049a891d4e03cddd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Models/Materials/Material #4.mat using Guid(a6d87de1afafe5049a891d4e03cddd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bdeef1d0c298a2d2668479a0cc8e5c') in 0.083027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Locks/Lockpicking/Models/Materials/No Name.mat
+  artifactKey: Guid(fa5ad4dfae3fad9489e1bd09906935ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Models/Materials/No Name.mat using Guid(fa5ad4dfae3fad9489e1bd09906935ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9010cac321e4fead8de471c7865df0') in 0.016564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 36.363504 seconds.
+  path: Assets/Locks/OldLHAssets/documentation.pdf
+  artifactKey: Guid(590892a7963591e4bb74301113984e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/documentation.pdf using Guid(590892a7963591e4bb74301113984e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842eee059940514be090b9952207a622') in 0.001164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.620240 seconds.
+  path: Assets/Locks/OldLHAssets/documentation.doc
+  artifactKey: Guid(ccc10cf866ddb84488bb69bc7422b29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/documentation.doc using Guid(ccc10cf866ddb84488bb69bc7422b29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa92ef547b88bc937963d54df2dbc4d2') in 0.001143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.258529 seconds.
+  path: Assets/Locks/OldLHAssets/ComponentSheet.xlsx
+  artifactKey: Guid(dcac7309f2d26384bbe06128bec56de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/ComponentSheet.xlsx using Guid(dcac7309f2d26384bbe06128bec56de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ed2a4276176ac65cc4009879027a6') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.665173 seconds.
+  path: Assets/Locks/OldLHAssets/LHExtraResources.zip
+  artifactKey: Guid(3375a1d93c83df74aaf539609846bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/LHExtraResources.zip using Guid(3375a1d93c83df74aaf539609846bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2c3bc93afcff752cd7f280c2a58571') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.887708 seconds.
+  path: Assets/Locks/OldLHAssets/RFPSAssets.rar
+  artifactKey: Guid(2ac9cc7bad531c94db61854520784686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/RFPSAssets.rar using Guid(2ac9cc7bad531c94db61854520784686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16afd7902961d897a01fdf2c42733d68') in 0.000957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.595106 seconds.
+  path: Assets/Locks/OldLHAssets/Textures
+  artifactKey: Guid(2c00570d76ef89f46a918794d007a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures using Guid(2c00570d76ef89f46a918794d007a06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e659df82f7caa1605a3de0030e4d995') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.093156 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/black_32_solid.jpg
+  artifactKey: Guid(6d94ffed9d74a57409c112928a17631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/black_32_solid.jpg using Guid(6d94ffed9d74a57409c112928a17631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3c80504dc10b9a3c56ab6a73353937') in 0.019228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/Bomb_512_normal.psd
+  artifactKey: Guid(1353110a3d59e07428b9732db646e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/Bomb_512_normal.psd using Guid(1353110a3d59e07428b9732db646e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b95ec206b0441477833e63e72c1e057') in 0.024732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/chest_512_UVW.psd
+  artifactKey: Guid(016102daf029c10469aeacd2745607a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/chest_512_UVW.psd using Guid(016102daf029c10469aeacd2745607a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d004be4a38851ae9bd666b858d603ab') in 0.020625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/chestLock_512_normal.png
+  artifactKey: Guid(6678a3a9be1bc0149b1e79569754e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/chestLock_512_normal.png using Guid(6678a3a9be1bc0149b1e79569754e7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b73c301261ce78bb5b68b9c9c138849') in 0.015535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/cutIcon.png
+  artifactKey: Guid(6ad09561e379f0b45beeeedaa85e1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/cutIcon.png using Guid(6ad09561e379f0b45beeeedaa85e1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4e55a660d8ffea55e10580f4aa7d04') in 0.018191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/DoorB_512_color.psd
+  artifactKey: Guid(3cfbb0bad13e11640b583fd0ce0a2493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/DoorB_512_color.psd using Guid(3cfbb0bad13e11640b583fd0ce0a2493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13391a9cc86b16bfad07b370598c95') in 0.018077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/iconsSheet_256.png
+  artifactKey: Guid(b7f30fa69595c6f4d867b0a0f2918c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/iconsSheet_256.png using Guid(b7f30fa69595c6f4d867b0a0f2918c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7736e040f7c15d138d40b8709743dd42') in 0.014651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/chestLock_512_base.psd
+  artifactKey: Guid(20ed13d6384792e43bb8018c3f0f0244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/chestLock_512_base.psd using Guid(20ed13d6384792e43bb8018c3f0f0244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df987dbae26dca6ef3feb972e7b60fff') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/metal_512_colorA.png
+  artifactKey: Guid(2b9eea4649bfd3846acd86b751493d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/metal_512_colorA.png using Guid(2b9eea4649bfd3846acd86b751493d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6991334d80aab8f98a200e25ab7189aa') in 0.016352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/safeDial_512_PSD.psd
+  artifactKey: Guid(34a6c243b3f9cf949acc24f4722ab185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/safeDial_512_PSD.psd using Guid(34a6c243b3f9cf949acc24f4722ab185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ef41ad664223d1f652ff99fb309397') in 0.015601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/screwdriver_512_PSD.psd
+  artifactKey: Guid(7abe472ffd8f7d847a9b93fb64eb63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/screwdriver_512_PSD.psd using Guid(7abe472ffd8f7d847a9b93fb64eb63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e199256cc855874d84475209167ebec6') in 0.015676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/white_32_transparent.png
+  artifactKey: Guid(8bce07f2d473cb448a4dec15a247fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/white_32_transparent.png using Guid(8bce07f2d473cb448a4dec15a247fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57029843e7c04612c1a82d3dbfe95db6') in 0.015959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/safeLock_512_normals.jpg
+  artifactKey: Guid(59f142661abe2f5499e7c01b6c4cf8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/safeLock_512_normals.jpg using Guid(59f142661abe2f5499e7c01b6c4cf8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69363352d956f75c7847904799516634') in 0.019054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/chest_512_normal.psd
+  artifactKey: Guid(1923f843d0a234443ad48df972088273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/chest_512_normal.psd using Guid(1923f843d0a234443ad48df972088273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1db04544fcdf8c74cd8fd70c9596fc') in 0.019289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/panelWire.png
+  artifactKey: Guid(a540cef8dbaf36242812d94734bfe3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/panelWire.png using Guid(a540cef8dbaf36242812d94734bfe3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6045552056632197e11f08b89535391a') in 0.018420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/dotIcon.png
+  artifactKey: Guid(432bc41748f30954fa35e1998337f91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/dotIcon.png using Guid(432bc41748f30954fa35e1998337f91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a099261bb98514e45e7c0cd342c9492') in 0.017820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/safeLock_512_color.jpg
+  artifactKey: Guid(8c28321849efb694fbf743887b07c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/safeLock_512_color.jpg using Guid(8c28321849efb694fbf743887b07c203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af685d56fb357bdbd7fd4f06f6f2a70') in 0.019166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/Splat_512_color.psd
+  artifactKey: Guid(f850f794d8557174c9eb74c000a68d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/Splat_512_color.psd using Guid(f850f794d8557174c9eb74c000a68d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e8b81d8b55ab48b766509fa52a85f') in 0.017268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Locks/OldLHAssets/Textures/horizontalArrows.png
+  artifactKey: Guid(e405d4c83d985e54eb78859346cff456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/OldLHAssets/Textures/horizontalArrows.png using Guid(e405d4c83d985e54eb78859346cff456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea64e39dd6378ffafe199d584beb08b') in 0.021095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 50.762836 seconds.
+  path: Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0b4372f170001c04c9efb32cab5cf1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-0_comp_light.exr using Guid(0b4372f170001c04c9efb32cab5cf1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45b0f07f0dd3cba28d84fc22153fd0') in 0.045872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-2_comp_dir.png
+  artifactKey: Guid(e2cbd1487f6ee7c40bb3e5268bbd348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-2_comp_dir.png using Guid(e2cbd1487f6ee7c40bb3e5268bbd348c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51c567f32a365cf1b361fc3993af47a') in 0.026053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.716892 seconds.
+  path: Assets/Locks/Lockpicking/Materials/Door.mat
+  artifactKey: Guid(346553d7f619c014689df452a105da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Materials/Door.mat using Guid(346553d7f619c014689df452a105da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95405b3de5238afaf6cc170cc2bac26b') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Locks/Lockpicking/Materials/Lock.mat
+  artifactKey: Guid(5d195d6a9ded8934b9921a6a058b5d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Materials/Lock.mat using Guid(5d195d6a9ded8934b9921a6a058b5d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715773f518cfc9c08bf4c0c1b56cd31a') in 0.015286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.492108 seconds.
+  path: Assets/Locks/Lockpicking/Sounds/LockpickingStuck.wav
+  artifactKey: Guid(cd530749038d0d049a8f74b5e4af7bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Sounds/LockpickingStuck.wav using Guid(cd530749038d0d049a8f74b5e4af7bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368838f8d1cbb75b961e4fea27070727') in 0.041538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.692706 seconds.
+  path: Assets/Locks/Lockpicking/Textures/Plank.jpg
+  artifactKey: Guid(f249d6ac9ac51c04fa394a8e023b55f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Textures/Plank.jpg using Guid(f249d6ac9ac51c04fa394a8e023b55f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49edaa8cb5b741a9351ba826af0049d') in 0.024917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Locks/Lockpicking/Textures/PlankNormals.png
+  artifactKey: Guid(e45d6da3d363dec438e4bbede1dea3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Textures/PlankNormals.png using Guid(e45d6da3d363dec438e4bbede1dea3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897447cd8966d6c0693166ad4fa7c104') in 0.018520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.083406 seconds.
+  path: Assets/Locks/SafeCracking/Materials/Gold.mat
+  artifactKey: Guid(a32d21b159e022a43bc247fe37acc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/SafeCracking/Materials/Gold.mat using Guid(a32d21b159e022a43bc247fe37acc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce79b8e5a5955339d49c804b66f9498') in 0.014061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.379 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1017ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3640.
+Memory consumption went from 130.0 MB to 129.9 MB.
+Total: 3.782500 ms (FindLiveObjects: 0.327900 ms CreateObjectMapping: 0.116200 ms MarkObjects: 3.279100 ms  DeleteObjects: 0.057800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LHWeaponCamera.cs: d46a1e55e4ad0ff0ff6d13ce35fbd8d5 -> ef8cd7b7089e5d97f0cea69a32b29060
+  custom:scripting/monoscript/fileName/LPDoor.cs: 99907756f5f5488c6ad32ed38d492220 -> b41e703a7e9b96e47e2ef8e8b1b564c4
+  custom:scripting/monoscript/fileName/LHPlayer.cs: 128150586eeefe2e54bb8493b8e20960 -> 69b59d9e6d064b9ee56669c9dc9fa33c
+  custom:scripting/monoscript/fileName/LPDemoPlayer.cs: ed780cf248c5fbff09d8328c57c6a300 -> 0cf3c830f1d7da388548fc1ea65d7ba4
+  custom:scripting/monoscript/fileName/LPDialPad.cs: 2944cb540a7cfc966e49261c7ed5b68f -> e010c585e81ad57d4774e668abb09df7
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/LHInventory.cs: 6591cc6c3257e75dad98f666433350f5 -> 021566b5525eb8534768943281175a84
+  custom:scripting/monoscript/fileName/LHSplat.cs: a7e0a0224635c0df6df86c8a9bf906d8 -> 64ea54d5413cb71a91f71ebe3971a6ff
+  custom:scripting/monoscript/fileName/LHEffect.cs: b65ef3a986154dd93d1a05bba5db0b96 -> 380ea3941996a0762791c7e7f07151ff
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/LPSafe.cs: 70e477aea725f026a75e2edbe471fe42 -> 123e3226d61c5bd80c7e47cca4458a91
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LHContainer.cs: 7bcfd921a6ef1e5574fd02b72b843b25 -> d71c5cccfbe84d316af03bcb30559966
+  custom:scripting/monoscript/fileName/LHDestroyObject.cs: d044d874178f3ffab26f3eed23dd4be2 -> 28c5044fb07b788f5feee06239577046
+  custom:scripting/monoscript/fileName/LPMobileControls.cs: 69c32a2e27674fe8845a1c8a8c839c13 -> 928e6cf423a5f66b26d2b0f9e607e63e
+  custom:scripting/monoscript/fileName/LHCamera.cs: e5babae43d7d76871511f9fb71e01d79 -> d983ae8afdff39c8d5af479993c9687e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LPExplosive.cs: 66ebdaea87daee35dab65e8ea05bf344 -> d13a17ccac2801d8a1f71f2135cd5632
+  custom:scripting/monoscript/fileName/LHLookAt.cs: a7ddef2b3ed6a3ff9220f486fab5f0d9 -> 585f5c6d54874d5b71f4625686c57bc0
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LHBombLock.cs: ec5a70ff57581b0fc48e7babed5ead4d -> 5e7c1d2a0d6f96050583143523202ca8
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LHPanelLock.cs: 61e99568f02aeb858f5cc6ad06fea30f -> cdcba7039400ccf5570a22168f6b9771
+  custom:scripting/monoscript/fileName/LHPanelWire.cs: 7ce412853ea25682caedbca7fe7d7d07 -> 6a977c449e83c08870792f14af53549a
+  custom:scripting/monoscript/fileName/LHPickup.cs: 416832233aed6814dc06d025f51e6539 -> a702987423597203e48c38a5f50a2fd4
+  custom:scripting/monoscript/fileName/LHLock.cs: c640a7becbccf3944e36f64122047eb1 -> 6796e487b7a45feb5c59a57f956f9443
+  custom:scripting/monoscript/fileName/LHSafeLock.cs: 2dbd6ae4d44c43900a7fed0ed07f2558 -> 79c1b032783832adb0a544eb6a3d7b6b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LPPlaySound.cs: cfcd74da1f682b4587df65df10913909 -> d4be01df99dc6f42ae7f278ab12e8957
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPLockpicking.cs: 7ca9ba0ea3d1ff1ddd3ba66035da753f -> 1856f5de9918bdf9b5ac6980d520f0e3
+  custom:scripting/monoscript/fileName/LHEnlarge.cs: 39422cdbf9b10faf56d65d485ffe4fea -> 50c8c13381d46c0217e945789747190d
+  custom:scripting/monoscript/fileName/LPLockActivator.cs: fb4edc18f07cc5efac718d5b40186efc -> 36d7f4f0a1cff6125c0c126f4f3f8083
+  custom:scripting/monoscript/fileName/LHMessage.cs: a8960df0f7481a25c56aeb37c4c29ec7 -> 5c33d649c348b4e61377a02b9cc8cc3c
+  custom:scripting/monoscript/fileName/LPKingdomLock.cs: 3b401e92c9c20ff1ea5d32c688cb6023 -> 343ac4cd43e5abb9be6a190ff33d3abe
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPAtomicBomb.cs: c60b75201f48f947f1f5e156a16d81b1 -> 17070b94300d1d1e00d9ebba77135a0e

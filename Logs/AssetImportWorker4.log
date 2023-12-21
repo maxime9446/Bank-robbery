@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/becke/Crochetage
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49200
+Successfully changed project path to: C:/Users/becke/Crochetage
+C:/Users/becke/Crochetage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15772] Host "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 245458006 [EditorId] 245458006 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H6I10TV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15772] Host "[IP] 192.168.0.154 [Port] 0 [Flags] 2 [Guid] 245458006 [EditorId] 245458006 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H6I10TV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/becke/Crochetage/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006756 seconds.
+- Loaded All Assemblies, in  0.296 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.214 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (165ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3577.
+Memory consumption went from 122.7 MB to 122.6 MB.
+Total: 2.803400 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.098500 ms MarkObjects: 2.321900 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LHWeaponCamera.cs: d46a1e55e4ad0ff0ff6d13ce35fbd8d5 -> ef8cd7b7089e5d97f0cea69a32b29060
+  custom:scripting/monoscript/fileName/LPDoor.cs: 99907756f5f5488c6ad32ed38d492220 -> b41e703a7e9b96e47e2ef8e8b1b564c4
+  custom:scripting/monoscript/fileName/LHPlayer.cs: 128150586eeefe2e54bb8493b8e20960 -> 69b59d9e6d064b9ee56669c9dc9fa33c
+  custom:scripting/monoscript/fileName/LPDemoPlayer.cs: ed780cf248c5fbff09d8328c57c6a300 -> 0cf3c830f1d7da388548fc1ea65d7ba4
+  custom:scripting/monoscript/fileName/LPDialPad.cs: 2944cb540a7cfc966e49261c7ed5b68f -> e010c585e81ad57d4774e668abb09df7
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/LHInventory.cs: 6591cc6c3257e75dad98f666433350f5 -> 021566b5525eb8534768943281175a84
+  custom:scripting/monoscript/fileName/LHSplat.cs: a7e0a0224635c0df6df86c8a9bf906d8 -> 64ea54d5413cb71a91f71ebe3971a6ff
+  custom:scripting/monoscript/fileName/LHEffect.cs: b65ef3a986154dd93d1a05bba5db0b96 -> 380ea3941996a0762791c7e7f07151ff
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/LPSafe.cs: 70e477aea725f026a75e2edbe471fe42 -> 123e3226d61c5bd80c7e47cca4458a91
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LHContainer.cs: 7bcfd921a6ef1e5574fd02b72b843b25 -> d71c5cccfbe84d316af03bcb30559966
+  custom:scripting/monoscript/fileName/LHDestroyObject.cs: d044d874178f3ffab26f3eed23dd4be2 -> 28c5044fb07b788f5feee06239577046
+  custom:scripting/monoscript/fileName/LPMobileControls.cs: 69c32a2e27674fe8845a1c8a8c839c13 -> 928e6cf423a5f66b26d2b0f9e607e63e
+  custom:scripting/monoscript/fileName/LHCamera.cs: e5babae43d7d76871511f9fb71e01d79 -> d983ae8afdff39c8d5af479993c9687e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LPExplosive.cs: 66ebdaea87daee35dab65e8ea05bf344 -> d13a17ccac2801d8a1f71f2135cd5632
+  custom:scripting/monoscript/fileName/LHLookAt.cs: a7ddef2b3ed6a3ff9220f486fab5f0d9 -> 585f5c6d54874d5b71f4625686c57bc0
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LHBombLock.cs: ec5a70ff57581b0fc48e7babed5ead4d -> 5e7c1d2a0d6f96050583143523202ca8
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LHPanelLock.cs: 61e99568f02aeb858f5cc6ad06fea30f -> cdcba7039400ccf5570a22168f6b9771
+  custom:scripting/monoscript/fileName/LHPanelWire.cs: 7ce412853ea25682caedbca7fe7d7d07 -> 6a977c449e83c08870792f14af53549a
+  custom:scripting/monoscript/fileName/LHPickup.cs: 416832233aed6814dc06d025f51e6539 -> a702987423597203e48c38a5f50a2fd4
+  custom:scripting/monoscript/fileName/LHLock.cs: c640a7becbccf3944e36f64122047eb1 -> 6796e487b7a45feb5c59a57f956f9443
+  custom:scripting/monoscript/fileName/LHSafeLock.cs: 2dbd6ae4d44c43900a7fed0ed07f2558 -> 79c1b032783832adb0a544eb6a3d7b6b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LPPlaySound.cs: cfcd74da1f682b4587df65df10913909 -> d4be01df99dc6f42ae7f278ab12e8957
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPLockpicking.cs: 7ca9ba0ea3d1ff1ddd3ba66035da753f -> 1856f5de9918bdf9b5ac6980d520f0e3
+  custom:scripting/monoscript/fileName/LHEnlarge.cs: 39422cdbf9b10faf56d65d485ffe4fea -> 50c8c13381d46c0217e945789747190d
+  custom:scripting/monoscript/fileName/LPLockActivator.cs: fb4edc18f07cc5efac718d5b40186efc -> 36d7f4f0a1cff6125c0c126f4f3f8083
+  custom:scripting/monoscript/fileName/LHMessage.cs: a8960df0f7481a25c56aeb37c4c29ec7 -> 5c33d649c348b4e61377a02b9cc8cc3c
+  custom:scripting/monoscript/fileName/LPKingdomLock.cs: 3b401e92c9c20ff1ea5d32c688cb6023 -> 343ac4cd43e5abb9be6a190ff33d3abe
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPAtomicBomb.cs: c60b75201f48f947f1f5e156a16d81b1 -> 17070b94300d1d1e00d9ebba77135a0e
+========================================================================
+Received Import Request.
+  Time since last request: 590122.622678 seconds.
+  path: Assets/Locks/Lock/Animations/Lock.controller
+  artifactKey: Guid(e6b4d11d424b8f44c86827149de86389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lock/Animations/Lock.controller using Guid(e6b4d11d424b8f44c86827149de86389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2181536bf4879760ed89bf28a8f4cc3a') in 0.011147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.150310 seconds.
+  path: Assets/Locks/Lockpicking/LockpickingDemo/LightingData.asset
+  artifactKey: Guid(bfb90f06059913143aa96e46ee5d0db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/LockpickingDemo/LightingData.asset using Guid(bfb90f06059913143aa96e46ee5d0db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '2a903c64738cd98e5896595589a32e87') in 0.001867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005466 seconds.
+  path: Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(fe40e862232f4194f9ddf0dd7bfbd9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/LockpickingDemo/Lightmap-0_comp_dir.png using Guid(fe40e862232f4194f9ddf0dd7bfbd9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9668e506ed0730d659924987dfd2c0') in 0.072028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.723822 seconds.
+  path: Assets/Locks/Lockpicking/Materials/Brass.mat
+  artifactKey: Guid(b351b1206aa35964fae2e0ae43d650b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Materials/Brass.mat using Guid(b351b1206aa35964fae2e0ae43d650b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce8c855ea37f2c059f1585019650773') in 0.084264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.657679 seconds.
+  path: Assets/Locks/Lockpicking/Prefabs/ZombieDoor.prefab
+  artifactKey: Guid(0a1e1dcdc9669be4d96438997eb2a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Prefabs/ZombieDoor.prefab using Guid(0a1e1dcdc9669be4d96438997eb2a759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5658fd343fcba3548b12b23daa3be101') in 0.047032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 197
+========================================================================
+Received Import Request.
+  Time since last request: 2.735651 seconds.
+  path: Assets/Locks/Lockpicking/Sounds/LockpickingReset.wav
+  artifactKey: Guid(45530cd62f38bb2409d4491ea685c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Sounds/LockpickingReset.wav using Guid(45530cd62f38bb2409d4491ea685c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06456cae3331381a8cbb4448e99c86f') in 0.041602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.692335 seconds.
+  path: Assets/Locks/Lockpicking/Textures/Lock.psd
+  artifactKey: Guid(32214e83743c8db49a6a10763ca9032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/Lockpicking/Textures/Lock.psd using Guid(32214e83743c8db49a6a10763ca9032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757b0249dc029b269cbeb546771891e3') in 0.059849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.067196 seconds.
+  path: Assets/Locks/SafeCracking/Materials/Bouncy.physicMaterial
+  artifactKey: Guid(ffee5712d5100dd49bf7c4c6c64473bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Locks/SafeCracking/Materials/Bouncy.physicMaterial using Guid(ffee5712d5100dd49bf7c4c6c64473bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372fcb34ff348fc37fd8f876ea1ec92') in 0.001191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.030019 seconds.
+  path: Packages/com.unity.settings-manager/package.json
+  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec04e17e4cc5ededd5fe9efff040daa0') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.133887 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0d7986351c1cbb24f6cf9b3a39b6b') in 0.001124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.926714 seconds.
+  path: Packages/com.unity.testtools.codecoverage/CHANGELOG.md
+  artifactKey: Guid(a6351153cf5e1af468cae5dbc72d1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/CHANGELOG.md using Guid(a6351153cf5e1af468cae5dbc72d1a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d6fedad009a76cee0303e13975d5f') in 0.001431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.678391 seconds.
+  path: Packages/com.unity.testtools.codecoverage/lib
+  artifactKey: Guid(aeb3d049d773040e8b36d2dea620a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/lib using Guid(aeb3d049d773040e8b36d2dea620a6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd7c106cf233230a740fee4ad4cedc6') in 0.000853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.640769 seconds.
+  path: Packages/com.unity.testtools.codecoverage/lib/ReportGenerator
+  artifactKey: Guid(612946c3599d5894592e1fcee9db7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/lib/ReportGenerator using Guid(612946c3599d5894592e1fcee9db7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab08a33e6c9c71535d365caaeb95d58') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.229094 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef
+  artifactKey: Guid(37180d43aa4b85c4b9076e2ef48a3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/CodeCoverage.Editor.asmdef using Guid(37180d43aa4b85c4b9076e2ef48a3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecd13a643478de19ff1a7bd9b1ee6ed') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.553437 seconds.
+  path: Packages/com.unity.testtools.codecoverage/LICENSE.md
+  artifactKey: Guid(df3aedd5e490bca44b693f5da1e4d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/LICENSE.md using Guid(df3aedd5e490bca44b693f5da1e4d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b113d56d66640bf19374cebdd381440') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.8 KB). Loaded Objects now: 3639.
+Memory consumption went from 128.1 MB to 128.0 MB.
+Total: 3.302300 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.710600 ms  DeleteObjects: 0.116900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LHWeaponCamera.cs: d46a1e55e4ad0ff0ff6d13ce35fbd8d5 -> ef8cd7b7089e5d97f0cea69a32b29060
+  custom:scripting/monoscript/fileName/LPDoor.cs: 99907756f5f5488c6ad32ed38d492220 -> b41e703a7e9b96e47e2ef8e8b1b564c4
+  custom:scripting/monoscript/fileName/LHPlayer.cs: 128150586eeefe2e54bb8493b8e20960 -> 69b59d9e6d064b9ee56669c9dc9fa33c
+  custom:scripting/monoscript/fileName/LPDemoPlayer.cs: ed780cf248c5fbff09d8328c57c6a300 -> 0cf3c830f1d7da388548fc1ea65d7ba4
+  custom:scripting/monoscript/fileName/LPDialPad.cs: 2944cb540a7cfc966e49261c7ed5b68f -> e010c585e81ad57d4774e668abb09df7
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/LHInventory.cs: 6591cc6c3257e75dad98f666433350f5 -> 021566b5525eb8534768943281175a84
+  custom:scripting/monoscript/fileName/LHSplat.cs: a7e0a0224635c0df6df86c8a9bf906d8 -> 64ea54d5413cb71a91f71ebe3971a6ff
+  custom:scripting/monoscript/fileName/LHEffect.cs: b65ef3a986154dd93d1a05bba5db0b96 -> 380ea3941996a0762791c7e7f07151ff
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/LPSafe.cs: 70e477aea725f026a75e2edbe471fe42 -> 123e3226d61c5bd80c7e47cca4458a91
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LHContainer.cs: 7bcfd921a6ef1e5574fd02b72b843b25 -> d71c5cccfbe84d316af03bcb30559966
+  custom:scripting/monoscript/fileName/LHDestroyObject.cs: d044d874178f3ffab26f3eed23dd4be2 -> 28c5044fb07b788f5feee06239577046
+  custom:scripting/monoscript/fileName/LPMobileControls.cs: 69c32a2e27674fe8845a1c8a8c839c13 -> 928e6cf423a5f66b26d2b0f9e607e63e
+  custom:scripting/monoscript/fileName/LHCamera.cs: e5babae43d7d76871511f9fb71e01d79 -> d983ae8afdff39c8d5af479993c9687e
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/LPExplosive.cs: 66ebdaea87daee35dab65e8ea05bf344 -> d13a17ccac2801d8a1f71f2135cd5632
+  custom:scripting/monoscript/fileName/LHLookAt.cs: a7ddef2b3ed6a3ff9220f486fab5f0d9 -> 585f5c6d54874d5b71f4625686c57bc0
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LHBombLock.cs: ec5a70ff57581b0fc48e7babed5ead4d -> 5e7c1d2a0d6f96050583143523202ca8
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LHPanelLock.cs: 61e99568f02aeb858f5cc6ad06fea30f -> cdcba7039400ccf5570a22168f6b9771
+  custom:scripting/monoscript/fileName/LHPanelWire.cs: 7ce412853ea25682caedbca7fe7d7d07 -> 6a977c449e83c08870792f14af53549a
+  custom:scripting/monoscript/fileName/LHPickup.cs: 416832233aed6814dc06d025f51e6539 -> a702987423597203e48c38a5f50a2fd4
+  custom:scripting/monoscript/fileName/LHLock.cs: c640a7becbccf3944e36f64122047eb1 -> 6796e487b7a45feb5c59a57f956f9443
+  custom:scripting/monoscript/fileName/LHSafeLock.cs: 2dbd6ae4d44c43900a7fed0ed07f2558 -> 79c1b032783832adb0a544eb6a3d7b6b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/LPPlaySound.cs: cfcd74da1f682b4587df65df10913909 -> d4be01df99dc6f42ae7f278ab12e8957
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPLockpicking.cs: 7ca9ba0ea3d1ff1ddd3ba66035da753f -> 1856f5de9918bdf9b5ac6980d520f0e3
+  custom:scripting/monoscript/fileName/LHEnlarge.cs: 39422cdbf9b10faf56d65d485ffe4fea -> 50c8c13381d46c0217e945789747190d
+  custom:scripting/monoscript/fileName/LPLockActivator.cs: fb4edc18f07cc5efac718d5b40186efc -> 36d7f4f0a1cff6125c0c126f4f3f8083
+  custom:scripting/monoscript/fileName/LHMessage.cs: a8960df0f7481a25c56aeb37c4c29ec7 -> 5c33d649c348b4e61377a02b9cc8cc3c
+  custom:scripting/monoscript/fileName/LPKingdomLock.cs: 3b401e92c9c20ff1ea5d32c688cb6023 -> 343ac4cd43e5abb9be6a190ff33d3abe
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/LPAtomicBomb.cs: c60b75201f48f947f1f5e156a16d81b1 -> 17070b94300d1d1e00d9ebba77135a0e
